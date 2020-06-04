@@ -38,7 +38,7 @@ public class Parceptron extends AppCompatActivity {
                 String res;
                 res = "w1=" + result[0] + "\n";
                 res += "w2=" + result[1] + "\n";
-                res += "Count of iteration: " + result[2]+"\n";
+                res +=  "Count of iterations: " + result[2]+"\n";
                 res += "Time: " + result[3]+"\n";
                 ((TextView) findViewById(R.id.res)).setText(res);
             }
